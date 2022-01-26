@@ -114,7 +114,7 @@ const sr = ScrollReveal({
     distance: '60px',
     duration: 2000,
     delay: 200,
-    reset: true
+//     reset: true
 });
 
 // sr.reveal('.home-data, .about-img, .skills-intro, .about-name, .about-text',{});
