@@ -117,10 +117,11 @@ const sr = ScrollReveal({
     reset: true
 });
 
-sr.reveal('.home-data, .about-img, .skills-intro, .about-name, .about-text',{}); 
-sr.reveal('.home-img, .about-subtitle, .about-text, .skills-title, .skills-intro, .skills-img',{delay: 400}); 
-sr.reveal('.home-social-icon, .section-title, .skills-cert, .team-works-img, .contact-input', { interval: 200}); 
-sr.reveal('.skills-data, .works-img, .team-box, .team-img-dan, .contact-input',{interval: 200});
+// sr.reveal('.home-data, .about-img, .skills-intro, .about-name, .about-text',{});
+// sr.reveal('.home-img, .about-subtitle, .about-text, .skills-title, .skills-img',{delay: 400}); 
+// sr.reveal('.home-social-icon, .section-title, .skills-cert, .team-works-img, .contact-input', { interval: 200}); 
+// sr.reveal('.skills-data, .works-img, .team-box, .team-img-dan, .contact-input',{interval: 200});
+sr.reveal('.home-data, .about-img, .skills-intro, .about-name, .about-text',{});
 
 
 function sendEmail(){
