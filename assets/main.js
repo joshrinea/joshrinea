@@ -122,6 +122,9 @@ const sr = ScrollReveal({
 // sr.reveal('.home-social-icon, .section-title, .skills-cert, .team-works-img, .contact-input', { interval: 200}); 
 // sr.reveal('.skills-data, .works-img, .team-box, .team-img-dan, .contact-input',{interval: 200});
 sr.reveal('.home-data, .about-img, .skills-intro, .about-name, .about-text',{});
+sr.reveal('.home-img, .about-subtitle, .about-text, .about-text, .skills-img',{delay: 400}); 
+sr.reveal('.home-social-icon', { interval: 200});
+sr.reveal('.skills-data, .works-img, .team-box, .contact-input',{interval: 200});
 
 
 function sendEmail(){
