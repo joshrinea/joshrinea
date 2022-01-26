@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Joshrinea.</title>
+    <!-- css -->
+    <link rel="stylesheet" href="assets/style.css">
+    <!-- website icon/logo -->
+    <link rel="shortcut icon" href="assets/logo.png" type="image/x-icon">
+    <!-- boxicons library for icons -->
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- ScrollReveal library animation -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- elasticmail -->
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+</head>
+<body>
+    <!-- splash screen -->
+    <div class="intro">
+        <h1 class="into-logo">
+            <span class="splash-logo" style="color: #fcc000;">Josh</span><span class="splash-logo">rinea.</span>
+        </h1>
+    </div>
+
+    <!-- header section -->
+    <header class="header" id="headerID" style="display: none;">
+        <nav class="nav grid">
+            <div>
+                <a href="#" class="header-logo"><span style="color: #fcc000;">Josh</span>rinea.</a>
+            </div>
+
+            <div class="header-menu" id="header-menuID">
+                <ul class="header-list">
+                    <li class="header-section"><a href="#home" class="header-link active-section">Home</a></li>
+                    <li class="header-section"><a href="#about" class="header-link">About</a></li>
+                    <li class="header-section"><a href="#skills" class="header-link">Skills</a></li>
+                    <li class="header-section"><a href="#works" class="header-link">Works</a></li>
+                    <li class="header-section"><a href="#contact" class="header-link">Contact</a></li>
+                    <li class="header-section"><img src="assets/moon.png" id="moon-icon"></li>
+                </ul>
+            </div>
+            
+            <div class="header-menu-btn" id="menu-btn" >
+                <i class='bx bx-menu'></i>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main" id="mainID">
+        <!-- home section -->
+        <section class="home grid" id="home">
+            <div class="home-data">
+                <h1 class="home-title">
+                    Hello, <br> I`am <span style="color: #fcc000;">Joshrine</span> <br> Programmer & Developer
+                </h1>
+                <a href="" class="button">Download CV</a>
+            </div>
+
+            <div class="home-social">
+                <a href="https://web.facebook.com/joshrinea" target="_blank" class="home-social-icon"><i class='bx bxl-facebook-square bx-fade-up-hover'></i></a>
+                <a href="https://www.linkedin.com/in/joshrine-agutaya" target="_blank" class="home-social-icon"><i class='bx bxl-linkedin-square bx-fade-up-hover' ></i></a>
+                <a href="https://github.com/joshrinea" target="_blank" class="home-social-icon"><i class='bx bxl-github bx-fade-up-hover'></i></a>
+            </div>
+
+            <div class="home-img">
+                <img src="assets/model2.png" style="border-radius: 50%;" alt="">
+            </div>
+        </section>
+
+        <!-- about section -->
+        <section class="about section" id="about">
+            <h2 class="section-title">About</h2>
+
+            <div class="about-container grid">
+                <div class="about-img">
+                    <img src="assets/model2.png" alt="Image">
+                </div>
+                <div>
+                    <h2 class="about-name">I`am Joshrine Agutaya</h2>
+                    <p class="about-text" style="margin-top: 1rem">
+                        Highly organized and detail-oriented graduate from STI College Caloocan 
+                        seeking an entry-level position as front-end or back-end programmer.
+                        Driven self-starter and fast learner person.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- skills section -->
+        <section class="skills section" id="skills">
+            <h2 class="section-title">Skills</h2>
+
+            <div class="skills-container ">
+                <h2 class="skills-title">I`m Knowledgable In</h2>
+                <p class="skills-intro">
+                    In my 4 years in college, and my drive to improve my skills through learning from online tutorials, 
+                    these are the skills I acquire and introduce to.
+                </p>
+                <div class="skills-data grid">
+
+                    <div class="skills-img">
+                        <img src="assets/java.png" alt="">
+                    </div>
+                    <div class="skills-img">
+                        <img src="assets/csharp.png" alt="">
+                    </div>
+                    <div class="skills-img">
+                        <img src="assets/js.png" alt="">
+                    </div>
+
+                    <div class="skills-img">
+                        <img src="assets/mysql.png" alt="">
+                    </div>
+                    <div class="skills-img">
+                        <img src="assets/firebase.png" alt="">
+                    </div>
+                    <div class="skills-img">
+                        <img src="assets/mongoDB.png" alt="">
+                    </div>
+
+                    <div class="skills-img">
+                        <img src="assets/html.png" alt="">
+                    </div>
+                    <div class="skills-img">
+                        <img src="assets/css.png" alt="">
+                    </div>
+                    <div class="skills-img">
+                        <img src="assets/php.png" alt="">
+                    </div>
+                </div>
+
+                <h2 class="section-title">Certificates</h2>
+
+                <div class="skills-cert grid">
+                    <img src="assets/cert1.png" alt="Certificate">
+                    <img src="assets/cert2.png" alt="Certificate">
+                </div>
+            </div>
+        </section>
+
+        <!-- works section -->
+        <section class="works section" id="works">
+            <h2 class="section-title">My Works</h2>
+
+            <!-- web works -->
+            <div class="works-container grid">
+                <div class="works-img">
+                    <img src="works/todolist.jpg" alt="">
+                </div>
+                <div class="works-img">
+                    <img src="works/work1.png" alt="">
+                </div>
+                <div class="works-img">
+                    <img src="works/work3.png" alt="">
+                </div>
+
+                <div class="works-img">
+                    <img src="works/todolist2.jpg" alt="">
+                </div>
+                <div class="works-img">
+                    <img src="works/work2.png" alt="">
+                </div>
+                <div class="works-img">
+                    <img src="works/work4.png" alt="">
+                </div>
+            </div>
+
+            <!-- mobile works -->
+            <div class="works-container grid">
+                <div class="works-img">
+                    <img src="works/quizapp1.jpg" >
+                </div>
+                <div class="works-img ">
+                    <img src="works/quizapp2.jpg" >
+                </div>
+
+                <div class="works-img">
+                    <img src="works/memorygame1.jpg" >
+                </div>
+                <div class="works-img">
+                    <img src="works/memorygame2.jpg" >
+                </div>
+
+                <div class="works-img">
+                    <img src="works/tutorialapp1.jpg">
+                </div>
+                <div class="works-img">
+                    <img src="works/tutorialapp2.jpg" >
+                </div>
+
+                <div class="works-img">
+                    <img src="works/preference1.jpg" >
+                </div>
+                <div class="works-img">
+                    <img src="works/preference2.jpg" >
+                </div>
+            </div>
+
+            <!-- team work -->
+            <h2 class="section-title">Team Works</h2>
+            <p class="skills-intro">
+                SUIT, a Mobile Ordering Application for Nemesis Clothing Co. with Augmented Reality Feature. 
+                I worked as the back-end in this project and some feature for our front-end.
+                This project wont be possible without my team.
+            </p>
+            <div class="work-container grid">
+                <div class="team-work-box grid">
+                    <div>
+                        <h2 class="section-title">Front-end</h2>
+                        <div class="team-works-img" style="padding: 2rem;">
+                            <img src="works/team_work1.png">
+                        </div>
+                    </div>
+
+                    <div>
+                        <h2 class="section-title">Back-end</h2>
+                        <div class="team-works-img" style="padding: 2rem;">
+                            <img src="works/backend_team.png">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <h2 class="section-title">My Team</h2>
+            <div class="team-img grid">
+                <div class="team-box">
+                    <div class="team-img-mark">
+                        <a href="https://markabecia.github.io/NarAlgo/" target="_blank" class="team-img-link"><img src="assets/mark.png"></a>
+                    </div>
+                </div>
+                
+                <div class="team-box">
+                    <div class="team-img-dan">
+                        <a href="https://xdaniel21.github.io/Portfolio/" target="_blank" class="team-img-link"><img src="assets/dan.png"></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- contact section -->
+        <section class="contact section" id="contact">
+            <h2 class="section-title">Contact</h2>
+
+            <div class="contact-container grid">
+                <form action="#" class="contact-form">
+                    <input type="text" placeholder="Name" class="contact-input" id="name-input" required>
+                    <input type="email" placeholder="Email" class="contact-input" id="email-input" required>
+                    <textarea style="resize:none;" cols="0" rows="10" class="contact-input" placeholder="Message..." id="message-input" required></textarea>
+                    
+                    <button type="button" class="contact-button" onclick="sendEmail()">Send <i class='bx bxs-send'></i></button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!-- footer section -->
+    <footer class="footer">
+        <p class="footer-title"><span style="color: #fcc000;">Josh</span>rinea.</p>
+        <div class="footer-social">
+            <a href="https://web.facebook.com/joshrinea" target="_blank" class="footer-icon"><i class='bx bxl-facebook bx-fade-down-hover' ></i></a>
+            <a href="https://www.instagram.com/joshrineaa/" target="_blank" class="footer-icon"><i  class='bx bxl-instagram bx-fade-down-hover' ></i></a>
+            <a href="https://twitter.com/Joshrinea" target="_blank" class="footer-icon"><i  class='bx bxl-twitter bx-fade-down-hover' ></i></a>
+        </div>
+        <p class="footer-copy">&#169; <span style="color: #fcc000;">Josh</span>rinea. All rigths reserved</p>
+    </footer>
+
+    <!-- javascript -->
+    <script src="assets/main.js"></script>
+    
+</body>
+</html>
